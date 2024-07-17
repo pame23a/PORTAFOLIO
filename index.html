@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi portafolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/492bb9efcd.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/c9b87a4bee.js" crossorigin="anonymous"></script>
+    
+</head>
+<body>
+    <div class="container">
+        <header id="encabezado">
+            <h1 class="logo">
+            <a href="index.html"><i class="fa-solid fa-heart"></i></a>Pamela Alcantara</h1>
+            <nav class="lista-menu">
+                <input type="checkbox" id="check" />
+                 <label for="check" class="checkbtn">
+                 <i class="fa-solid fa-bars"></i>
+                </label>
+                <ul class="menu">
+                    <li><a href="index.html">sobre Mi</a></li>
+                    <li><a href="#Acerca-de">Skills</a></li>
+                    <li><a href="#mas-sobre-mi">Hobbies</a></li>
+                    <li><a href="index.html">Formacion</a></li>
+                    <li><a href="#formulario">Proyectos</a></li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+    <main id="seccion-principal">
+        <div>
+            <section class="seccion-1">
+                <div class="acerca-de">
+                    <h2>Acerca de mi</h2>
+                    <p class="parrafo1">
+                        Hola, mi nombre es Pamela Alcantara y construyo paginas web  </p>
+                    <p class="parrafo2">
+                        "Me llamo Pamela, nací en Peru y vivo en Lima. Me gusta viajar y la fotografia. Me encantaría aprender a programar para poder ayudar a las personas a mostrar lo que hacen."
+                    </p>
+                </div>
+        
+                <div class="acerca-imagen">
+                    <img src="img/posible1.jpeg" alt="imagen personal">
+                </div>
+            </section>
+            <section class="seccion-2">
+                <img src="img/neom-Kcna6XWDY7w-unsplash.jpg" alt="imagen de carrusel">
+            </section>
+        </div>
+        
+        <h2>Mis trabajos</h2>
+
+        <div id="mas-sobre-mi"> 
+            <section class="sobre-mi1">
+                <div class="imagen-mas-sobre-mi">
+                <img src="img/ocean-1867285_640.jpg" alt="mas detalle">
+                </div>
+                <div>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat, sequi ad quam accusantium consectetur rem cumque iste a doloribus eaque voluptatibus aut voluptatem molestias ducimus accusamus maiores rerum? Inventore, illo?</p>
+                    <a href="index.html">Leer mas</a>
+                </div>
+            </section>
+            <section class="sobre-mi1">
+                <div class="imagen-mas-sobre-mi">
+                <img src="img/ocean-1867285_640.jpg" alt="mas detalle">
+                </div>
+                <div>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat, sequi ad quam accusantium consectetur rem cumque iste a doloribus eaque voluptatibus aut voluptatem molestias ducimus accusamus maiores rerum? Inventore, illo?</p>
+                    <a href="index.html">Leer mas</a>
+                </div>
+            </section>
+            <section class="sobre-mi1">
+                <div class="imagen-mas-sobre-mi">
+                <img src="img/ocean-1867285_640.jpg" alt="mas detalle">
+                </div>
+                <div>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat, sequi ad quam accusantium consectetur rem cumque iste a doloribus eaque voluptatibus aut voluptatem molestias ducimus accusamus maiores rerum? Inventore, illo?</p>
+                    <a href="index.html">Leer mas</a>
+                </div>
+            </section>
+        </div>
+    </main> 
+    <footer class="form-header">
+        <h1>Contacto</h1>
+        <p><em>¡Esperamos tu consulta!</em></p>
+  
+        <form action="" method="get" class="formulario" id="form">
+            <div class="form-row">
+                <label for="nombre">Nombre</label>
+                <input id="nombre" name="nombre" type="text" />
+              </div>
+              <div class="form-row">
+                <label for="email">Email</label>
+                <input
+                  id="email"
+                  name="email"
+                  type="email"
+                  placeholder="pepe@gmail.com"
+                  required
+                />
+            </div>
+            <div class="form-row">
+                <label for="mensaje">Mensaje</label>
+                <textarea id="mensaje" name="mensaje"></textarea>
+              </div>
+              <div class="form-row">
+                <button type="submit" id="submit">Enviar</button>
+              </div>
+              <p class="alertas" id="alertas"> </p>
+        </form>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
+
